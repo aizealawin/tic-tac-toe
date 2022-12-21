@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- Build your game board, instructions, and score displays here! -->
+  <header>
+    <h1>TIC TAC TOE</h1>
+    <div class = "instructions"> <b>?</b>
+      <span class ="info">
+        <p> HOW TO PLAY </p>
+        <ol>
+          <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+          <li>Player 1 is O and Player 2 is X. Players take turns putting their marks in empty squares.</li>
+          <li>The first player to get 3 of their marks in a row (vertical, horizontal, or diagonally) is the winner. </li>
+          <li>When all 9 squares are full and there is no winner, it's a draw. </li>
+        </ol> 
+    </div>
+  </header>
+
+  <main>
+   <h2 class="turnPrompt"></h2>
+    <section>
+      <div class="box">
+        <div index="0" class="gridOption"> </div>
+        <div index="1" class="gridOption"> </div>
+        <div index="2" class="gridOption"> </div>
+        <div index="3" class="gridOption"> </div>
+        <div index="4" class="gridOption"> </div>
+        <div index="5" class="gridOption"> </div>
+        <div index="6" class="gridOption"> </div>
+        <div index="7" class="gridOption"> </div>
+        <div index="8" class="gridOption"> </div>
+      
+      </div>
+    </section>
+
+    <button class="restartButton">Restart</button>
+  
+    <section class="scoreBoard">
+    
+      <h3>O-Player 1</h3>
+      <p class="score1">0</p>
+      <h3>X-Player 2</h3>
+      <p class="score2">0</p>
+    </section>
+      </main>
+    
+    <footer>
+  </footer>
+  <!-- Build your game board, instructions, and score displays here! -->  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
